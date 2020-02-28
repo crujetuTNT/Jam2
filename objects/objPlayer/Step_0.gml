@@ -28,19 +28,15 @@ if (keyboard_check(ord("S")))
 	newSprite = sprPlayerDown;
 }
 
+if (vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdle;
+}
+
 // Set sprite
 if (sprite_index != newSprite)
 {
 	sprite_index = newSprite;
-}
-
-if (vspeed == 0 && hspeed == 0)
-{
-	image_speed = 0;
-}
-else
-{
-	image_speed = 1;
 }
 
 // Life
