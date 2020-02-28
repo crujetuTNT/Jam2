@@ -56,7 +56,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2.5",
+            "value": "3.5",
             "varName": "maxVel",
             "varType": 0
         }
