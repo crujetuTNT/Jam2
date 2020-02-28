@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "572a80fb-a575-488b-8c8c-22a3e0f43e20",
+            "Value": {
+                "id": "292dd2b3-4e4c-473f-9196-26b4a5244d4b",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "58613314-27ff-4934-8cde-a99ca498a8ac",
             "Value": {
                 "id": "be7d7c98-90da-4489-92cd-090b030d7a0c",
@@ -151,11 +159,27 @@
             }
         },
         {
+            "Key": "9dfdb5a2-98ec-4ea0-abd6-498f9434a901",
+            "Value": {
+                "id": "ada40879-82b3-4c05-ab3f-42d5bb33829a",
+                "resourcePath": "sprites\\sprInvisibleWall\\sprInvisibleWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2da6dd9-68ec-41f1-b2c4-acbdfebec598",
             "Value": {
                 "id": "b4352bcd-83a9-45d7-8903-889570e3bfdf",
                 "resourcePath": "views\\a2da6dd9-68ec-41f1-b2c4-acbdfebec598.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a896bfe1-e8af-4eba-a2d9-67e993ae64e1",
+            "Value": {
+                "id": "e749d982-43ac-4d28-9e3a-497c110cee06",
+                "resourcePath": "objects\\objInvisibleWall\\objInvisibleWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
