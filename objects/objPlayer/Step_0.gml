@@ -7,25 +7,25 @@ var newSprite = sprite_index; // Create new sprite
 if (keyboard_check(vk_left))
 {
 	hspeed -= maxVel;
-	newSprite = sprLeft;
+	newSprite = sprPlayerLeft;
 }
 
 if (keyboard_check(vk_right))
 {
 	hspeed += maxVel;
-	newSprite = sprRight;
+	newSprite = sprPlayerRight;
 }
 
 if (keyboard_check(vk_up))
 {
 	vspeed -= maxVel;
-	newSprite = sprUp;
+	newSprite = sprPlayerUp;
 }
 
 if (keyboard_check(vk_down))
 {
 	vspeed += maxVel;
-	newSprite = sprDown;
+	newSprite = sprPlayerDown;
 }
 
 // Set sprite
