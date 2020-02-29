@@ -13,8 +13,7 @@
         "ec4536eb-fafd-487b-a774-bff95a72448c",
         "50a87066-072e-4bb2-adf9-ba756629ff38",
         "60f1dfc9-7a72-4cd9-8384-5b28b4f4edfe",
-        "f1e6ac01-3c92-4404-9111-fda59f2b150b",
-        "98cafd90-7bc7-4f99-ab82-afb430f8f98d"
+        "f1e6ac01-3c92-4404-9111-fda59f2b150b"
     ],
     "filterType": "GMSprite",
     "folderName": "sprSoldier",
