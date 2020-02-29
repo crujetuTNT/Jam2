@@ -2,7 +2,7 @@
     "id": "0df7bb7d-4536-4777-ad27-12a817709024",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object3",
+    "name": "objFranchutes",
     "eventList": [
         {
             "id": "5f1146ea-a374-4eba-b15e-22eaa6ea8b84",
