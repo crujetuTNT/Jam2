@@ -31,7 +31,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "a45eda20-8e42-489e-90d2-d46052aa84ef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "timerWander",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "99b9ea23-ac77-4dc6-8bb9-a2fa9ffc3a62",
     "visible": true
