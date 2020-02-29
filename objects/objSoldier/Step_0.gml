@@ -89,11 +89,19 @@ else
 	}
 }
 
-if (vspeed == 0 && hspeed == 0 && x<objPlayer.x)
+if (vspeed == 0 && hspeed == 0 && x<objPlayer.x && sprite_index != sprSoldierChargeRight && sprite_index != sprSoldierChargeLeft)
 {
 	sprite_index = sprSoldierIdleRight;
 }
-else if(vspeed == 0 && hspeed == 0 && x>objPlayer.x)
+else if(vspeed == 0 && hspeed == 0 && x>objPlayer.x && sprite_index != sprSoldierChargeRight && sprite_index != sprSoldierChargeLeft)
 {
 	sprite_index = sprSoldierIdleLeft;
+}
+else if(sprite_index == sprSoldierChargeRight)
+{
+	move_towards_point(-objPlayer.x, -objPlayer.y, 30);
+}
+else if(sprite_index == sprSoldierChargeLeft)
+{
+	move_towards_point(-objPlayer.x, -objPlayer.y, 30);
 }
