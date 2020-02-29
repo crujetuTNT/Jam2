@@ -59,3 +59,13 @@ if (life <= 0)
 	instance_destroy();
 	//audio_play_sound(sndDeath, 1, false);
 }
+
+// Shooting
+if (sumTimeScore)
+{
+	score++;
+	
+	// reset the shoot timer
+	sumTimeScore = false;
+	alarm[0] = scorePeriod;
+}
