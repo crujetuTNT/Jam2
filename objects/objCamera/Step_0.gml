@@ -3,23 +3,23 @@ var cameraY = (y + mouse_y);
 
 if(mouse_x<=x && mouse_y<=y)
 {
-	x += (xTo - (cameraX div 2) - 435)/95;
-	y += (yTo - (cameraY div 2) - 375)/95;
+	x += (xTo - (cameraX div 2) - 435)/99;
+	y += (yTo - (cameraY div 2) - 375)/99;
 }
 else if (mouse_x<=x && mouse_y>=y)
 {
-	x += (xTo - (cameraX div 2) - 435)/95;
-	y += (yTo + (cameraY div -2) + 375)/95;
+	x += (xTo - (cameraX div 2) - 435)/99;
+	y += (yTo + (cameraY div -2) + 375)/99;
 }
 else if (mouse_x>=x && mouse_y<=y)
 {
-	x += (xTo + (cameraX div -2) + 435)/95;
-	y += (yTo - (cameraY div 2) - 375)/95;
+	x += (xTo + (cameraX div -2) + 435)/99;
+	y += (yTo - (cameraY div 2) - 375)/99;
 }
 else if (mouse_x>=x && mouse_y>=y)
 {
-	x += (xTo + (cameraX div -2) + 435)/95;
-	y += (yTo + (cameraY div -2) + 375)/95;
+	x += (xTo + (cameraX div -2) + 435)/99;
+	y += (yTo + (cameraY div -2) + 375)/99;
 }
 
 if(follow != noone)

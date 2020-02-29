@@ -112,6 +112,7 @@ if (sumTimeScore)
 // Shooting
 if (canShoot && mouse_check_button_released(mb_left))
 {
+	spriteShoot = true;
 	var bullet = instance_create_depth(x+20, y, depth + 1, objShootPlayer);
 	bullet.direction = point_direction(x, y, mouse_x, mouse_y);
 	bullet.speed = bulletSpeed;
@@ -121,9 +122,9 @@ if (canShoot && mouse_check_button_released(mb_left))
 	alarm[1] = shootTime;
 }
 
-if (!canShoot)
+if (spriteShoot)
 {
-	
+	show_debug_message(spriteShoot);
 	if (point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
 	{
 		newSprite = sprPlayerShootRight;
