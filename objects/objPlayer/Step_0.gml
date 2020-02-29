@@ -123,3 +123,4 @@ if (sprite_index != newSprite)
 {
 	sprite_index = newSprite;
 }
+
