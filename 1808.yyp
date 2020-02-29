@@ -298,7 +298,7 @@
             "Key": "572a80fb-a575-488b-8c8c-22a3e0f43e20",
             "Value": {
                 "id": "292dd2b3-4e4c-473f-9196-26b4a5244d4b",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -850,7 +850,7 @@
             "Key": "fe762830-b8b1-4c98-ae3b-8b42af38d88f",
             "Value": {
                 "id": "85d93d7e-d5aa-4d80-b262-52a9df7d60fd",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
             }
         }
