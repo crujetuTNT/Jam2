@@ -474,7 +474,7 @@
             "Key": "b9ed5183-8d19-4959-b478-6896c599b11c",
             "Value": {
                 "id": "4f24794a-04a4-4a90-ba9f-76333df3f583",
-                "resourcePath": "sprites\\sprSoldierAttackLeft\\sprSoldierAttackLeft.yy",
+                "resourcePath": "sprites\\sprSoldierChargeLeft\\sprSoldierChargeLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "ec4536eb-fafd-487b-a774-bff95a72448c",
             "Value": {
                 "id": "c8158cd1-18ec-4de4-b7a2-ee7a36536816",
-                "resourcePath": "sprites\\sprSoldierAttackRight\\sprSoldierAttackRight.yy",
+                "resourcePath": "sprites\\sprSoldierChargeRight\\sprSoldierChargeRight.yy",
                 "resourceType": "GMSprite"
             }
         },
