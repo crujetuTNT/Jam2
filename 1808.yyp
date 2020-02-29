@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "7d8ea97d-4400-4751-b421-9253650027af",
+            "Value": {
+                "id": "305f4245-72ac-4016-b39a-a170a74d4697",
+                "resourcePath": "sprites\\sprSoldierIdleLeft\\sprSoldierIdleLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8155e625-2d85-452a-8893-e2750ec0c110",
             "Value": {
                 "id": "46dc0f7e-3c24-47bf-88c7-8f716c3985b0",
@@ -498,7 +506,7 @@
             "Key": "c953cb49-a2e9-47c2-9c43-d60fb13d3dcb",
             "Value": {
                 "id": "96e67d5a-d404-4189-a875-3f19b0ea47e0",
-                "resourcePath": "sprites\\sprSoldierIdle\\sprSoldierIdle.yy",
+                "resourcePath": "sprites\\sprSoldierIdleRight\\sprSoldierIdleRight.yy",
                 "resourceType": "GMSprite"
             }
         },
