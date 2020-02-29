@@ -82,7 +82,22 @@ if (sumTimeScore)
 // Shooting
 if (canShoot && mouse_check_button_released(mb_left))
 {
-	newSprite = sprPlayerShoot;
+	if (point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
+	{
+		newSprite = sprPlayerShootRight;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 157 && point_direction(x, y, mouse_x, mouse_y) <= 202) // Left
+	{
+		newSprite = sprPlayerShootLeft;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 67 && point_direction(x, y, mouse_x, mouse_y) <= 112) // Up
+	{
+		newSprite = sprPlayerShootUp;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 247 && point_direction(x, y, mouse_x, mouse_y) <= 292) // Down
+	{
+		newSprite = sprPlayerShootDown;
+	}
 	
 	var bullet = instance_create_depth(x+20, y+4, depth + 1, objShootPlayer);
 	bullet.direction = point_direction(x, y, mouse_x, mouse_y);

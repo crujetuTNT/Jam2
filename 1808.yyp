@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "30ff41d3-e006-471d-9796-27072f36dacb",
+            "Value": {
+                "id": "aa847949-4c6a-4300-937a-79018852c765",
+                "resourcePath": "sprites\\sprPlayerShootLeft\\sprPlayerShootLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37888e49-89c3-4772-af41-8b8f4b2b3408",
             "Value": {
                 "id": "6ffb0681-be0f-4b56-9b37-274d90e16171",
@@ -239,6 +247,22 @@
             }
         },
         {
+            "Key": "b3860902-b48d-4672-b0c3-901a7131cc17",
+            "Value": {
+                "id": "79b5af58-cad8-40b8-9d97-1a34ccba40c1",
+                "resourcePath": "sprites\\sprPlayerShootUp\\sprPlayerShootUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7483209-16ec-4b8e-a304-c711648f484b",
+            "Value": {
+                "id": "fb5904ac-5630-4633-a568-61e78cb302b4",
+                "resourcePath": "sprites\\sprPlayerShootDown\\sprPlayerShootDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "3bb383e3-7230-4b06-8d8d-73c09b37f02a",
@@ -274,7 +298,7 @@
             "Key": "e460117a-b049-4fca-82b2-2fc3703eedb3",
             "Value": {
                 "id": "b0b42384-87c7-429f-9f12-510f67238c32",
-                "resourcePath": "sprites\\sprPlayerShoot\\sprPlayerShoot.yy",
+                "resourcePath": "sprites\\sprPlayerShootRight\\sprPlayerShootRight.yy",
                 "resourceType": "GMSprite"
             }
         },
