@@ -33,6 +33,26 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "7d2c00b1-94d6-4942-9348-877a7a3a4937",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "e291f765-8363-447c-9d7a-f30976f05be7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -120,6 +140,48 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "scorePeriod",
+            "varType": 0
+        },
+        {
+            "id": "ad728ef6-d067-489f-afef-6519af757bba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canShoot",
+            "varType": 3
+        },
+        {
+            "id": "f9ad0e79-3a4d-4b23-9a12-868abd8fa483",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "shootTime",
+            "varType": 0
+        },
+        {
+            "id": "3bfc686a-df39-4c19-a609-7868da351c12",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "22",
+            "varName": "bulletSpeed",
             "varType": 0
         }
     ],

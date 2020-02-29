@@ -63,12 +63,6 @@ if (vspeed == 0 && hspeed == 0)
 	newSprite = sprPlayerIdle;
 }
 
-// Set sprite
-if (sprite_index != newSprite)
-{
-	sprite_index = newSprite;
-}
-
 // Life
 if (life <= 0)
 {
@@ -76,12 +70,31 @@ if (life <= 0)
 	//audio_play_sound(sndDeath, 1, false);
 }
 
-// Shooting
+// Score
 if (sumTimeScore)
 {
 	score++;
 	
-	// reset the shoot timer
+	// reset the score timer
 	sumTimeScore = false;
 	alarm[0] = scorePeriod;
+}
+// Shooting
+if (canShoot && mouse_check_button_released(mb_left))
+{
+	newSprite = sprPlayerShoot;
+	
+	var bullet = instance_create_depth(x+20, y+4, depth + 1, objShootPlayer);
+	bullet.direction = point_direction(x, y, mouse_x, mouse_y);
+	bullet.speed = bulletSpeed;
+	
+	// reset the shoot timer
+	canShoot = false;
+	alarm[1] = shootTime;
+}
+
+// Set sprite
+if (sprite_index != newSprite)
+{
+	sprite_index = newSprite;
 }

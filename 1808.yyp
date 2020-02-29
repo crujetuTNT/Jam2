@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "087edee2-1f04-4235-aea1-c384871b6dd4",
+            "Value": {
+                "id": "c95d205f-b794-49be-aaed-ebd49096e254",
+                "resourcePath": "objects\\objShootPlayer\\objShootPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "101e4286-67cb-4abd-9739-37e330cd005c",
             "Value": {
                 "id": "349d8ece-41a5-4efd-9b68-2830245b2f7f",
@@ -92,6 +100,14 @@
                 "id": "1c8d1149-4088-4e04-89ff-3368c602d15d",
                 "resourcePath": "views\\2e10c520-a8eb-4b75-8eb0-0c3a97cd4569.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "37888e49-89c3-4772-af41-8b8f4b2b3408",
+            "Value": {
+                "id": "6ffb0681-be0f-4b56-9b37-274d90e16171",
+                "resourcePath": "sprites\\sprCursor\\sprCursor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
