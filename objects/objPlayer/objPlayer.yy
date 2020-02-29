@@ -63,6 +63,26 @@
             "enumb": 7,
             "eventtype": 7,
             "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "79a25067-3948-4d5a-863f-baa2fe8668c0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "0df7bb7d-4536-4777-ad27-12a817709024",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "a28c3076-283c-40b8-a575-df58d8e666ad",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -206,6 +226,34 @@
             "resourceFilter": 1023,
             "value": "22",
             "varName": "bulletSpeed",
+            "varType": 0
+        },
+        {
+            "id": "1d7400b7-0ba0-4326-8850-f517bc928bdd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "reloadLife",
+            "varType": 3
+        },
+        {
+            "id": "4cf73094-4002-4722-81f0-6d30de491640",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "lifeUp",
             "varType": 0
         }
     ],

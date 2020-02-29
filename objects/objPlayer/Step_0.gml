@@ -109,6 +109,17 @@ if (sumTimeScore)
 	sumTimeScore = false;
 	alarm[0] = scorePeriod;
 }
+
+// Recover life
+if (reloadLife)
+{
+	life++;
+	
+	// reset the life reload timer
+	reloadLife = false;
+	alarm[0] = lifeUp;
+}
+
 // Shooting
 if (canShoot && mouse_check_button_released(mb_left))
 {
