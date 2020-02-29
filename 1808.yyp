@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "8cd8fd7c-a22e-44d0-9adf-8c2031b18ffc",
+            "Value": {
+                "id": "a19ddfa7-ede8-4149-9c4e-5c0f0773aeb8",
+                "resourcePath": "objects\\objAgustina\\objAgustina.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f8d4b9f-fc3b-4ceb-9dea-aa3cff63f1aa",
             "Value": {
                 "id": "4036c52b-ece9-42ce-aabb-553843a245a9",

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objHomenaje",
     "eventList": [
-        
+        {
+            "id": "b1e3ff16-2a15-4f1a-a0c8-65317d007cbc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "07382818-a711-4de4-aa54-cc050ba3a057"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +31,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e2864866-2973-4530-94f6-5f8b5d4eb58e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "minMov",
+            "varType": 0
+        },
+        {
+            "id": "1f3eaebf-7124-4fa6-b7d0-4d3538c02992",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "maxMov",
+            "varType": 0
+        },
+        {
+            "id": "78cbca7a-19af-4501-8b3f-b192a39054a5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "movEstado",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "51b350c2-f051-4499-9d2b-5457bc825205",
     "visible": true

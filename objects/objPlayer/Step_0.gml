@@ -121,7 +121,7 @@ if (reloadLife)
 }
 
 // Shooting
-if (canShoot && mouse_check_button_released(mb_left))
+if (canShoot && mouse_check_button_released(mb_left) && current_time > 2000)
 {
 	spriteShoot = true;
 	var bullet = instance_create_depth(x+20, y, depth + 1, objShootPlayer);
