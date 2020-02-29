@@ -23,6 +23,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "1008b64c-3aff-4e6f-9d82-79798ad6d273",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -82,6 +92,34 @@
             "resourceFilter": 1023,
             "value": "3.5",
             "varName": "maxVel",
+            "varType": 0
+        },
+        {
+            "id": "9a1e199d-ed5b-4038-8260-82b4947a7554",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "sumTimeScore",
+            "varType": 3
+        },
+        {
+            "id": "13ace5ca-4deb-46de-879f-f06438dd0535",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "scorePeriod",
             "varType": 0
         }
     ],

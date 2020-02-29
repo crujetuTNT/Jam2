@@ -1,0 +1,1 @@
+sumTimeScore = true;
