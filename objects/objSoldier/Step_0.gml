@@ -105,3 +105,9 @@ else if(sprite_index == sprSoldierChargeLeft)
 {
 	move_towards_point(-objPlayer.x, -objPlayer.y, 30);
 }
+
+// Score destroy tu instance the bosss
+if (objPlayer.score >= 250 && objPlayer.score <= 260)
+{
+	instance_destroy();	
+}

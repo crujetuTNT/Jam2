@@ -175,3 +175,9 @@ if (sprite_index != newSprite)
 {
 	sprite_index = newSprite;
 }
+
+// Score destroy tu instance the bosss
+if (objPlayer.score >= 250 && objPlayer.score <= 260)
+{
+	inst = instance_create(x, y, objBoss);
+}
