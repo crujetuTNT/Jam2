@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "5d130a8c-781a-40f8-9813-8bde761589c7",
+            "Value": {
+                "id": "b7a79f98-3c52-4211-b31e-13fb59dfaaf5",
+                "resourcePath": "sprites\\sprPlayerShootDownLeft\\sprPlayerShootDownLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5dbc4304-b138-4628-982d-3e660c066fe3",
             "Value": {
                 "id": "bfad75a5-3d21-4d3c-b558-ff0a6925e4d3",
@@ -348,6 +356,14 @@
                 "id": "cd16f444-075e-4d67-a7dc-6ee920cf35db",
                 "resourcePath": "views\\8b36b1f3-d9b3-4814-ae74-c2d9d85823ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8bef6abe-976c-4185-b805-4a6a487bb048",
+            "Value": {
+                "id": "e1ceefc1-6376-49d3-b570-9b8db3be98c3",
+                "resourcePath": "sprites\\sprPlayerShootDownRight\\sprPlayerShootDownRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
