@@ -97,4 +97,3 @@ else if(vspeed == 0 && hspeed == 0 && x>objPlayer.x)
 {
 	sprite_index = sprSoldierIdleLeft;
 }
-show_debug_message(timerWander);
