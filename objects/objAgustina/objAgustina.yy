@@ -1,19 +1,10 @@
 {
-    "id": "d95790a3-fffe-4a08-ba87-7194f016c230",
+    "id": "8cd8fd7c-a22e-44d0-9adf-8c2031b18ffc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objPlay",
+    "name": "objAgustina",
     "eventList": [
-        {
-            "id": "a756e792-5131-4e72-b06d-1b38ac956747",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "d95790a3-fffe-4a08-ba87-7194f016c230"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2a83f132-e54c-40b1-9d07-f54eb070286d",
+    "spriteId": "f49e983f-6e96-46e4-bf91-b60189428aa6",
     "visible": true
 }
