@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "154fd8f2-b51e-4403-b2bc-25ba8af0d6da",
+            "Value": {
+                "id": "a68629bf-fb87-44f3-8f10-1c1f31f1d17b",
+                "resourcePath": "sprites\\sprPlayerShootTopRight\\sprPlayerShootTopRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "189562b9-2a22-4a97-8f08-81cbd116be9c",
             "Value": {
                 "id": "9369f19e-00d9-443a-8340-f4d0520141a1",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "50a87066-072e-4bb2-adf9-ba756629ff38",
+            "Value": {
+                "id": "73a44a6c-5f78-456f-9c75-9fd9afd40c04",
+                "resourcePath": "sprites\\sprSoldierTopLeft\\sprSoldierTopLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51a51ddd-96cd-4cd2-a030-350c00ce059c",
             "Value": {
                 "id": "7b71a62f-d199-4576-be51-835c9ada8f98",
@@ -207,10 +223,26 @@
             }
         },
         {
+            "Key": "5dbc4304-b138-4628-982d-3e660c066fe3",
+            "Value": {
+                "id": "bfad75a5-3d21-4d3c-b558-ff0a6925e4d3",
+                "resourcePath": "sprites\\sprPlayerShootTopLeft\\sprPlayerShootTopLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e96dbf3-58ac-4956-81d9-e8f3614cf027",
             "Value": {
                 "id": "2f2c3e79-2d41-4f68-a2e7-3c878fb83500",
                 "resourcePath": "sprites\\sprShootLeft\\sprShootLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60f1dfc9-7a72-4cd9-8384-5b28b4f4edfe",
+            "Value": {
+                "id": "c912bf12-5869-41bf-b0f4-90ce66fe9999",
+                "resourcePath": "sprites\\sprSoldierTopRight\\sprSoldierTopRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -315,6 +347,14 @@
             "Value": {
                 "id": "85c88afe-5af6-4a8f-9396-d06ebc7e1059",
                 "resourcePath": "sprites\\sprShootLeftTop\\sprShootLeftTop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98cafd90-7bc7-4f99-ab82-afb430f8f98d",
+            "Value": {
+                "id": "fd212f5a-0107-457c-beeb-c4619fb35ab1",
+                "resourcePath": "sprites\\sprSoldierDownRight\\sprSoldierDownRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -484,6 +524,14 @@
                 "id": "9713c6a5-0491-4f03-b0a2-49ad5df5198a",
                 "resourcePath": "tilesets\\tileSetHorizontalFence\\tileSetHorizontalFence.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "f1e6ac01-3c92-4404-9111-fda59f2b150b",
+            "Value": {
+                "id": "19fb55fa-a634-485a-b735-9d6040996802",
+                "resourcePath": "sprites\\sprSoldierDownLeft\\sprSoldierDownLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
