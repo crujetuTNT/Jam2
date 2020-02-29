@@ -51,7 +51,6 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 292 && point_direction(x, y, m
 }
 else if(point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22)
 {
-	show_debug_message("ok");
 	newSprite = sprPlayerRight;
 }
 else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mouse_x, mouse_y) <= 67)
@@ -60,7 +59,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 }
 
 // Idle
-if (point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22 && vspeed == 0 && hspeed == 0) // Right
+if ((point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) && vspeed == 0 && hspeed == 0) // Right
 {
 	newSprite = sprPlayerIdleRight;
 }
