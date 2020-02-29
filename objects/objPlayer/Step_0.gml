@@ -13,19 +13,33 @@ if (keyboard_check(ord("A")))
 if (keyboard_check(ord("D")))
 {
 	hspeed += maxVel;
-	newSprite = sprPlayerRight;
 }
 
 if (keyboard_check(ord("W")))
 {
 	vspeed -= maxVel;
-	newSprite = sprPlayerUp;
 }
 
 if (keyboard_check(ord("S")))
 {
 	vspeed += maxVel;
+}
+
+if(point_direction(x, y, mouse_x, mouse_y) >= 45 && point_direction(x, y, mouse_x, mouse_y) < 135)
+{
+	newSprite = sprPlayerUp;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) >= 135 && point_direction(x, y, mouse_x, mouse_y) < 225)
+{
+	newSprite = sprPlayerLeft;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) >= 225 && point_direction(x, y, mouse_x, mouse_y) < 315)
+{
 	newSprite = sprPlayerDown;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) >= 315 || point_direction(x, y, mouse_x, mouse_y) < 45)
+{
+	newSprite = sprPlayerRight;
 }
 
 if (vspeed == 0 && hspeed == 0)
