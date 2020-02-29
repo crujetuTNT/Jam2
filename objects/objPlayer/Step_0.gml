@@ -24,7 +24,7 @@ if (keyboard_check(ord("S")))
 {
 	vspeed += maxVel;
 }
-show_debug_message(string(point_direction(x, y, mouse_x, mouse_y)));
+
 if(point_direction(x, y, mouse_x, mouse_y) > 67 && point_direction(x, y, mouse_x, mouse_y) <= 112)
 {
 	newSprite = sprPlayerUp;
@@ -49,7 +49,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 292 && point_direction(x, y, m
 {
 	newSprite = sprPlayerDownRight;
 }
-else if(point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22)
+else if(point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22)
 {
 	newSprite = sprPlayerRight;
 }
@@ -59,7 +59,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 }
 
 // Idle
-if (point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22 && vspeed == 0 && hspeed == 0) // Right
+if ((point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) && vspeed == 0 && hspeed == 0) // Right
 {
 	newSprite = sprPlayerIdleRight;
 }
@@ -99,7 +99,7 @@ if (canShoot && mouse_check_button_released(mb_left))
 if (!canShoot)
 {
 	
-	if (point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
+	if (point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
 	{
 		newSprite = sprPlayerShootRight;
 	}
@@ -122,3 +122,6 @@ if (sprite_index != newSprite)
 {
 	sprite_index = newSprite;
 }
+
+// Camera
+camera_set_view_pos(view_camera[0], (objPlayer.x + mouse_x) div 2, (objPlayer.y + mouse_y) div 2);
