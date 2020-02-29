@@ -124,4 +124,60 @@ if (sprite_index != newSprite)
 }
 
 // Camera
-camera_set_view_pos(view_camera[0], (objPlayer.x + mouse_x) div 2, (objPlayer.y + mouse_y) div 2);
+var cameraX = ((objPlayer.x + mouse_x) div 2)-520;
+var cameraY = ((objPlayer.y + mouse_y) div 2)-350;
+
+camera_set_view_pos(view_camera[0], cameraX, cameraY);
+
+if (mouse_x-objPlayer.x >= 442)
+{
+	camera_set_view_pos(view_camera[0], 442, cameraY);
+}
+
+show_debug_message("camera: "+string(camera_get_view_x(view_camera[0]))+", "+string(camera_get_view_y(view_camera[0])));
+show_debug_message("player: "+string(objPlayer.x)+", "+string(objPlayer.y));
+show_debug_message("mouse: "+string(mouse_x)+", "+string(mouse_y));
+show_debug_message("total: "+string(mouse_x-objPlayer.x)+", "+string(mouse_y-objPlayer.y));
+
+
+/*
+if ((mouse_x-objPlayer.x) >= 334 && (mouse_y-objPlayer.y) >= 233) // Right Up
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x-334, objPlayer.y-350);
+	show_debug_message("11");
+}
+else if ((mouse_x-objPlayer.x) >= -334 && (mouse_y-objPlayer.y) >= 233) // Left Up
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x+334, objPlayer.y-350);
+	show_debug_message("12");
+}
+else if ((mouse_x-objPlayer.x) >= 334  && (mouse_y-objPlayer.y) >= 233) // Right down
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x-334, objPlayer.y-350);
+	show_debug_message("13");
+}
+else if ((mouse_x-objPlayer.x) >= 334 && (mouse_y-objPlayer.y) >= -233) // Left down
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x+334, objPlayer.y-350);
+	show_debug_message("14");
+}
+else if ((mouse_x-objPlayer.x) >= 334) // Right
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x-334, ((objPlayer.y + mouse_y) div 2)-350);
+	show_debug_message("1");
+}
+else if ((mouse_x-objPlayer.x) >= -334) // Left
+{
+	camera_set_view_pos(view_camera[0], objPlayer.x-334, ((objPlayer.y + mouse_y) div 2)-350);
+	show_debug_message("2");
+}
+else if ((mouse_y-objPlayer.y) >= 233) // Up
+{
+	camera_set_view_pos(view_camera[0], ((objPlayer.x + mouse_x) div 2)-520, objPlayer.y-350);
+	show_debug_message("3");
+}
+else if ((mouse_y-objPlayer.y) >= -233) // Down
+{
+	camera_set_view_pos(view_camera[0], ((objPlayer.x + mouse_x) div 2)-520, objPlayer.y-350);
+	show_debug_message("4");
+}*/
