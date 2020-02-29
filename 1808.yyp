@@ -399,14 +399,6 @@
             }
         },
         {
-            "Key": "98cafd90-7bc7-4f99-ab82-afb430f8f98d",
-            "Value": {
-                "id": "fd212f5a-0107-457c-beeb-c4619fb35ab1",
-                "resourcePath": "sprites\\sprSoldierDownRight\\sprSoldierDownRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "99b9ea23-ac77-4dc6-8bb9-a2fa9ffc3a62",
             "Value": {
                 "id": "a6bfde24-272b-4a98-918f-9c8df7c67fca",
