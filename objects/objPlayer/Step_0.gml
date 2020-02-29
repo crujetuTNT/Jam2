@@ -67,6 +67,30 @@ else if (point_direction(x, y, mouse_x, mouse_y) > 157 && point_direction(x, y, 
 {
 	newSprite = sprPlayerIdleLeft;
 }
+if(point_direction(x, y, mouse_x, mouse_y) > 67 && point_direction(x, y, mouse_x, mouse_y) <= 112 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleUp;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) > 112 && point_direction(x, y, mouse_x, mouse_y) <= 157 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleUpLeft;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) > 202 && point_direction(x, y, mouse_x, mouse_y) <= 247 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleDownLeft;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) > 247 && point_direction(x, y, mouse_x, mouse_y) <= 292 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleDown;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) > 292 && point_direction(x, y, mouse_x, mouse_y) <= 337 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleDownRight;
+}
+else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mouse_x, mouse_y) <= 67 && vspeed == 0 && hspeed == 0)
+{
+	newSprite = sprPlayerIdleUpRight;
+}
 
 // Life
 if (life <= 0)

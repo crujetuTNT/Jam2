@@ -2,7 +2,7 @@
     "id": "9887f725-a79c-417c-8bb6-eb74df0575a5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprShootLeftTop",
+    "name": "sprShootLeftUp",
     "For3D": false,
     "HTile": false,
     "VTile": false,
