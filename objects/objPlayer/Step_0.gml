@@ -49,7 +49,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 292 && point_direction(x, y, m
 {
 	newSprite = sprPlayerDownRight;
 }
-else if(point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22)
+else if(point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22)
 {
 	newSprite = sprPlayerRight;
 }
@@ -82,7 +82,7 @@ if (sumTimeScore)
 // Shooting
 if (canShoot && mouse_check_button_released(mb_left))
 {
-	if (point_direction(x, y, mouse_x, mouse_y) > 337 || point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
+	if (point_direction(x, y, mouse_x, mouse_y) > 337 && point_direction(x, y, mouse_x, mouse_y) <= 22) // Right
 	{
 		newSprite = sprPlayerShootRight;
 	}
