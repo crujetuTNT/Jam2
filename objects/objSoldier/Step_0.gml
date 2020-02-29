@@ -38,19 +38,19 @@ else
 	{
 		timerWander = 0;
 		move_towards_point(objPlayer.x, objPlayer.y, 0.01);
-		if(point_direction(x, y, objPlayer.x, objPlayer.y) > 135 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 225)
+		if(point_direction(x, y, objPlayer.x, objPlayer.y) > 157 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 202)
 		{
 			sprite_index = sprSoldierLeft;
 		}
-		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 315 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 45)
+		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 337 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 23)
 		{
 			sprite_index = sprSoldierRight;
 		}
-		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 225 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 315)
+		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 247 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 292)
 		{
 			sprite_index = sprSoldierDown;
 		}
-		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 45 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 135)
+		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 67 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 112)
 		{
 			sprite_index = sprSoldierUp;
 		}
