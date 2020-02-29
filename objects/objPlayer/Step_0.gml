@@ -25,6 +25,7 @@ if (keyboard_check(ord("S")))
 	vspeed += maxVel;
 }
 
+// Run
 if(point_direction(x, y, mouse_x, mouse_y) > 67 && point_direction(x, y, mouse_x, mouse_y) <= 112)
 {
 	newSprite = sprPlayerUp;
@@ -139,7 +140,6 @@ if (!canShoot)
 	{
 		newSprite = sprPlayerShootDown;
 	}
-	
 	else if (point_direction(x, y, mouse_x, mouse_y) > 112 && point_direction(x, y, mouse_x, mouse_y) <= 157) // Top left
 	{
 		newSprite = sprPlayerShootTopLeft;
