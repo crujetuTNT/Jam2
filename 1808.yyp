@@ -74,7 +74,7 @@
             "Key": "0df7bb7d-4536-4777-ad27-12a817709024",
             "Value": {
                 "id": "201f926a-ba96-4751-b7ff-16234a5747ee",
-                "resourcePath": "objects\\objFranchutes\\objFranchutes.yy",
+                "resourcePath": "objects\\objSoldier\\objSoldier.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -172,6 +172,14 @@
                 "id": "7b71a62f-d199-4576-be51-835c9ada8f98",
                 "resourcePath": "views\\51a51ddd-96cd-4cd2-a030-350c00ce059c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52907a6d-94b0-46dd-bb83-7f444e9d2184",
+            "Value": {
+                "id": "f3bdfd78-c2fb-450d-89b5-1a5c2b2b6d3e",
+                "resourcePath": "sprites\\sprSoldierLeft\\sprSoldierLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "c953cb49-a2e9-47c2-9c43-d60fb13d3dcb",
+            "Value": {
+                "id": "96e67d5a-d404-4189-a875-3f19b0ea47e0",
+                "resourcePath": "sprites\\sprSoldierIdle\\sprSoldierIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "3bb383e3-7230-4b06-8d8d-73c09b37f02a",
@@ -431,10 +447,34 @@
             }
         },
         {
+            "Key": "e2f2d380-627a-47da-b094-dd2ed2b3edb6",
+            "Value": {
+                "id": "04fab2b2-245b-4bbc-bb43-027e2b49e2fc",
+                "resourcePath": "sprites\\sprSoldierRight\\sprSoldierRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e460117a-b049-4fca-82b2-2fc3703eedb3",
             "Value": {
                 "id": "b0b42384-87c7-429f-9f12-510f67238c32",
                 "resourcePath": "sprites\\sprPlayerShootRight\\sprPlayerShootRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eae00dca-2276-40eb-b1b6-eb1e976987c3",
+            "Value": {
+                "id": "880d1fd2-230c-4487-acd0-81805ca693a2",
+                "resourcePath": "sprites\\sprSoldierUp\\sprSoldierUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ec4536eb-fafd-487b-a774-bff95a72448c",
+            "Value": {
+                "id": "c8158cd1-18ec-4de4-b7a2-ee7a36536816",
+                "resourcePath": "sprites\\sprSoldierAtack\\sprSoldierAtack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -451,6 +491,14 @@
             "Value": {
                 "id": "e0f6c575-f956-4ee2-a491-6352dd61fc74",
                 "resourcePath": "sprites\\sprPlayerRight\\sprPlayerRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6342e5c-114c-4694-b5a2-6734151ee183",
+            "Value": {
+                "id": "4dc18318-d722-4347-8cd5-f12611ad20e3",
+                "resourcePath": "sprites\\sprSoldierDown\\sprSoldierDown.yy",
                 "resourceType": "GMSprite"
             }
         },

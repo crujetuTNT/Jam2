@@ -2,7 +2,7 @@
     "id": "0df7bb7d-4536-4777-ad27-12a817709024",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objFranchutes",
+    "name": "objSoldier",
     "eventList": [
         {
             "id": "5f1146ea-a374-4eba-b15e-22eaa6ea8b84",
@@ -48,6 +48,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "99b9ea23-ac77-4dc6-8bb9-a2fa9ffc3a62",
+    "spriteId": "c953cb49-a2e9-47c2-9c43-d60fb13d3dcb",
     "visible": true
 }

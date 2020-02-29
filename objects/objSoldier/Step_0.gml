@@ -24,19 +24,22 @@ else
 		move_towards_point(objPlayer.x, objPlayer.y, 0.01);
 		if(point_direction(x, y, objPlayer.x, objPlayer.y) > 135 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 225)
 		{
-			sprite_index = sprPlayerLeft;
+			sprite_index = sprSoldierLeft;
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 315 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 45)
 		{
-			sprite_index = sprPlayerRight;
+			sprite_index = sprSoldierRight;
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 225 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 315)
 		{
-			sprite_index = sprPlayerDown;
+			sprite_index = sprSoldierDown;
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 45 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 135)
 		{
-			sprite_index = sprPlayerUp;
+			sprite_index = sprSoldierUp;
 		}
 	}
 }
+
+if (vspeed == 0 && hspeed == 0)
+	sprite_index = sprSoldierIdle;
