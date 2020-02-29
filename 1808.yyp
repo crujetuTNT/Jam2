@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2dd035c6-9426-4a7d-8444-95c74ec639e2",
+            "Value": {
+                "id": "e87dbfc7-8358-4d4d-b9c7-7d664f2cae6d",
+                "resourcePath": "sprites\\sprButton2\\sprButton2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2dd6b9cd-db9f-4eb1-aa17-68d86beaa961",
             "Value": {
                 "id": "dff7011e-3235-45f6-a113-8c05a3cd0f7e",
@@ -164,6 +172,14 @@
                 "id": "1c8d1149-4088-4e04-89ff-3368c602d15d",
                 "resourcePath": "views\\2e10c520-a8eb-4b75-8eb0-0c3a97cd4569.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ea571d5-bbe1-4ada-a2a7-dcd4f77673c0",
+            "Value": {
+                "id": "51bc7cf8-6d36-44ab-98f0-ca3067f69bb8",
+                "resourcePath": "sprites\\sprArte\\sprArte.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -307,6 +323,14 @@
             "Value": {
                 "id": "cf8bf593-e9db-4129-b5dd-7590b7311303",
                 "resourcePath": "sprites\\sprPlayerIdleDown\\sprPlayerIdleDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7048c599-d5e5-45ff-9e55-f0e86581f872",
+            "Value": {
+                "id": "2cd53750-9660-4b4d-b06e-bc1211ff0907",
+                "resourcePath": "sprites\\sprProgramacion\\sprProgramacion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "b9e5f8ae-d6d5-41e7-b632-ae60a45beb71",
+            "Value": {
+                "id": "0870aa80-56d6-4ce3-8c34-e0b41abc8d9b",
+                "resourcePath": "sprites\\sprButton1\\sprButton1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9ed5183-8d19-4959-b478-6896c599b11c",
             "Value": {
                 "id": "4f24794a-04a4-4a90-ba9f-76333df3f583",
@@ -539,6 +571,14 @@
             "Value": {
                 "id": "1be43ab1-3aa6-492d-9676-5a57f1e86381",
                 "resourcePath": "sprites\\sprShootLeftDown\\sprShootLeftDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc3328de-1b37-4a0f-ac66-37ef688e6862",
+            "Value": {
+                "id": "f0c465d8-36d2-4898-b48d-eef28549d57c",
+                "resourcePath": "sprites\\sprPlay2\\sprPlay2.yy",
                 "resourceType": "GMSprite"
             }
         },
