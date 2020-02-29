@@ -49,34 +49,42 @@ else
 		if(point_direction(x, y, objPlayer.x, objPlayer.y) > 157 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 202)
 		{
 			sprite_index = sprSoldierLeft;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 337 || point_direction(x, y, objPlayer.x, objPlayer.y) <= 23)
 		{
 			sprite_index = sprSoldierRight;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 247 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 292)
 		{
 			sprite_index = sprSoldierDown;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 67 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 112)
 		{
 			sprite_index = sprSoldierUp;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 23 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 67)
 		{
 			sprite_index = sprSoldierTopRight;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 112 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 157)
 		{
 			sprite_index = sprSoldierTopLeft;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 292 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 337)
 		{
 			sprite_index = sprSoldierDownRight;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 		else if(point_direction(x, y, objPlayer.x, objPlayer.y) > 202 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 247)
 		{
 			sprite_index = sprSoldierDownLeft;
+			move_towards_point(objPlayer.x, objPlayer.y, 20);
 		}
 	}
 }
@@ -89,3 +97,4 @@ else if(vspeed == 0 && hspeed == 0 && x>objPlayer.x)
 {
 	sprite_index = sprSoldierIdleLeft;
 }
+show_debug_message(timerWander);
