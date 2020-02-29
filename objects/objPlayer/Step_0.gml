@@ -139,6 +139,23 @@ if (!canShoot)
 	{
 		newSprite = sprPlayerShootDown;
 	}
+	
+	else if (point_direction(x, y, mouse_x, mouse_y) > 112 && point_direction(x, y, mouse_x, mouse_y) <= 157) // Top left
+	{
+		newSprite = sprPlayerShootTopLeft;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mouse_x, mouse_y) <= 67) // Top right
+	{
+		newSprite = sprPlayerShootTopRight;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 202 && point_direction(x, y, mouse_x, mouse_y) <= 247) // Down left
+	{
+		newSprite = sprPlayerShootDownLeft;
+	}
+	else if (point_direction(x, y, mouse_x, mouse_y) > 292 && point_direction(x, y, mouse_x, mouse_y) <= 337) // Down right
+	{
+		newSprite = sprPlayerShootDownRight;
+	}
 }
 
 // Set sprite
