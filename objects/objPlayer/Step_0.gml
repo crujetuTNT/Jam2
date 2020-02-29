@@ -163,24 +163,3 @@ if (sprite_index != newSprite)
 {
 	sprite_index = newSprite;
 }
-
-// Camera
-var cameraX = (x + mouse_x);
-var cameraY = (y + mouse_y);
-
-if(mouse_x<=x && mouse_y<=y)
-{
-	camera_set_view_pos(view_camera[0], (cameraX div 2) - 435, (cameraY div 2) - 375);
-}
-else if (mouse_x<=x && mouse_y>=y)
-{
-	camera_set_view_pos(view_camera[0], (cameraX div 2) - 435, -(cameraY div -2) - 375);
-}
-else if (mouse_x>=x && mouse_y<=y)
-{
-	camera_set_view_pos(view_camera[0], -(cameraX div -2) - 435, (cameraY div 2) - 375);
-}
-else if (mouse_x>=x && mouse_y>=y)
-{
-	camera_set_view_pos(view_camera[0], -(cameraX div -2) - 435, -(cameraY div -2) - 375);
-}
