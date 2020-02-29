@@ -24,7 +24,7 @@ if (keyboard_check(ord("S")))
 {
 	vspeed += maxVel;
 }
-show_debug_message(string(point_direction(x, y, mouse_x, mouse_y)));
+
 if(point_direction(x, y, mouse_x, mouse_y) > 67 && point_direction(x, y, mouse_x, mouse_y) <= 112)
 {
 	newSprite = sprPlayerUp;
@@ -123,3 +123,5 @@ if (sprite_index != newSprite)
 	sprite_index = newSprite;
 }
 
+// Camera
+camera_set_view_pos(view_camera[0], (objPlayer.x + mouse_x) div 2, (objPlayer.y + mouse_y) div 2);
