@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "e8e7f802-55ed-4838-b9e7-c44fd20d4aca",
+            "Value": {
+                "id": "86cc588e-aa22-405f-9aed-974db02730d3",
+                "resourcePath": "sprites\\sprShadow\\sprShadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eae00dca-2276-40eb-b1b6-eb1e976987c3",
             "Value": {
                 "id": "880d1fd2-230c-4487-acd0-81805ca693a2",
@@ -820,6 +828,14 @@
                 "id": "9713c6a5-0491-4f03-b0a2-49ad5df5198a",
                 "resourcePath": "tilesets\\tileSetHorizontalFence\\tileSetHorizontalFence.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "eef596fa-b945-4145-b6e6-e1a2397b5438",
+            "Value": {
+                "id": "2383bf90-34a8-4a72-bf29-b0b519fbda35",
+                "resourcePath": "objects\\objShadow\\objShadow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
