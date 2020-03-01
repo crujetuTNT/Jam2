@@ -1,7 +1,9 @@
-alarm[0] = random_range(0, 2);
+alarm[0] = proximaOleada;
 
 if (spawnEnemigos)
 {
-	var enemyCreateBoss = instance_create_depth(x, y-20, depth + 1, objSoldier);
 	spawnEnemigos = false;
+	show_message("Enemigo creado por boss");
+	var enemyCreateSoldier = instance_create_depth(x-16, y-20, 0, objSoldier);
+	proximaOleada = random_range(timeSpawnMin, timeSpawnMax);
 }

@@ -1,0 +1,1 @@
+proximaOleada = random_range(4, 8);

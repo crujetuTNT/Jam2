@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "2e263dfd-a909-4af4-a4f4-f719ca1a72ac"
+        },
+        {
+            "id": "37d600f5-7500-4efb-b5bc-6d547099a432",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2e263dfd-a909-4af4-a4f4-f719ca1a72ac"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -66,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "1",
             "varName": "timeSpawnMin",
             "varType": 1
         },
@@ -111,6 +121,20 @@
             "value": "8",
             "varName": "spawnMax",
             "varType": 1
+        },
+        {
+            "id": "827c5d48-ce45-42b9-891d-7a2c4de3f26d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "proximaOleada",
+            "varType": 0
         }
     ],
     "solid": false,
