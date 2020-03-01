@@ -101,6 +101,7 @@ if (life <= 0)
 }
 
 // Score
+show_debug_message(score);
 if (sumTimeScore)
 {
 	score++;
