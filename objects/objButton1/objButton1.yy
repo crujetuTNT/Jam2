@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objButton1",
     "eventList": [
-        
+        {
+            "id": "a4d7e1c4-cec0-4432-86bf-0c290f1febd7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "602963cb-043f-468b-8b5c-14fd69432a31"
+        },
+        {
+            "id": "275a482f-af34-4adb-8c7c-06377460532d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "602963cb-043f-468b-8b5c-14fd69432a31"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
