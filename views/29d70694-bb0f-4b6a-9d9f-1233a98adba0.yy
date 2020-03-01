@@ -12,9 +12,17 @@
         "a8f72cdc-4438-4455-a667-d013ebc85d65",
         "2ea571d5-bbe1-4ada-a2a7-dcd4f77673c0",
         "b9e5f8ae-d6d5-41e7-b632-ae60a45beb71",
+        "3196162a-a41a-4ced-9a2e-9c5fea03d8bc",
         "2dd035c6-9426-4a7d-8444-95c74ec639e2",
+        "2eb6e822-1a62-412e-b401-780cd1cfb19f",
         "bc3328de-1b37-4a0f-ac66-37ef688e6862",
-        "7048c599-d5e5-45ff-9e55-f0e86581f872"
+        "7048c599-d5e5-45ff-9e55-f0e86581f872",
+        "8c6d2df0-2c5b-4cee-89f3-73dbb97d1bc7",
+        "638f9f55-769e-41be-93dd-d4e7496455c6",
+        "08ea5a3c-f28a-45d7-b423-e46450eb74b4",
+        "87b70824-facd-4910-9eaf-db7206ba8860",
+        "41dd8373-42f1-4e7e-a6e6-92d2e3b3b041",
+        "4d78ddd2-b22d-44ba-9949-7d9e5205ca38"
     ],
     "filterType": "GMSprite",
     "folderName": "sprMenu",
