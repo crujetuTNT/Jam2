@@ -1,4 +1,4 @@
-alarm[0] = random_range(timeSpawnMin, timeSpawnMax);
+alarm[0] = random_range(0, 2);
 
 if (spawnEnemigos)
 {
