@@ -96,6 +96,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 // Life
 if (life <= 0)
 {
+	instance_create_depth(x, y, 0, objPhantom);
 	game_restart();
 	//audio_play_sound(sndDeath, 1, false);
 }
