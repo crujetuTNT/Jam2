@@ -1,3 +1,4 @@
+if(instance_exists(objPlayer)){
 var cameraX = (x + mouse_x);
 var cameraY = (y + mouse_y);
 
@@ -40,4 +41,5 @@ if (sumTimeScore)
 	// reset the score timer
 	sumTimeScore = false;
 	alarm[0] = scorePeriod;
+}
 }

@@ -89,20 +89,6 @@
             "value": "True",
             "varName": "sumTimeScore",
             "varType": 3
-        },
-        {
-            "id": "9d34b105-b188-4d77-9fd7-c26b98d4c673",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "score",
-            "varType": 0
         }
     ],
     "solid": false,

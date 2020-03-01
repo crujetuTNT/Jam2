@@ -7,7 +7,6 @@ var newSprite = sprite_index; // Create new sprite
 if (keyboard_check(ord("A")))
 {
 	hspeed -= maxVel;
-	newSprite = sprPlayerLeft;
 }
 
 if (keyboard_check(ord("D")))
@@ -97,7 +96,7 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 if (life <= 0)
 {
 	instance_create_depth(x, y, 0, objPhantom);
-	game_restart();
+	instance_destroy();
 	//audio_play_sound(sndDeath, 1, false);
 }
 
@@ -173,3 +172,5 @@ if (score >= 20 && bossCreate == false)
 	instance_create_depth(x, y+80, depth + 1, objBoss);
 	bossCreate = true;
 }
+
+image_blend = make_color_rgb(255, 255, 255);

@@ -1,3 +1,4 @@
+if(instance_exists(objPlayer)){
 var line = collision_line(x, y, objPlayer.x, objPlayer.y, objInvisibleWall, false, false);
 if(point_direction(x, y, objPlayer.x, objPlayer.y) > 157 && point_direction(x, y, objPlayer.x, objPlayer.y) <= 202 && distance_to_object(objPlayer) <= 500 && line == noone)
 {
@@ -110,4 +111,5 @@ else if(sprite_index == sprSoldierChargeLeft)
 if (score >= 20 && score <= 25)
 {
 	instance_destroy();
+}
 }
