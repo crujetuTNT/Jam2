@@ -100,17 +100,6 @@ if (life <= 0)
 	//audio_play_sound(sndDeath, 1, false);
 }
 
-// Score
-show_debug_message(score);
-if (sumTimeScore)
-{
-	score++;
-	
-	// reset the score timer
-	sumTimeScore = false;
-	alarm[0] = scorePeriod;
-}
-
 // Recover life
 if (reloadLife)
 {
@@ -178,7 +167,7 @@ if (sprite_index != newSprite)
 }
 
 // Score destroy tu instance the bosss
-if (score >= 20 && score <= 25)
+if (score >= 20 && bossCreate == 0)
 {
-	instance_create_depth(x, y+40, depth + 1, objBoss);
+	bossCreate = instance_create_depth(x, y+40, depth + 1, objBoss);
 }
