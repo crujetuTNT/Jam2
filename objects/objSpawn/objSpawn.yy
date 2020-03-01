@@ -94,9 +94,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "200",
             "varName": "timeMinSpawn",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "752bac7a-61e1-4db9-a073-a0eacdaf2604",
@@ -108,9 +108,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "400",
             "varName": "timeMaxSpawn",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "68eff551-b509-4082-93b9-ea782c0cae4c",
@@ -124,7 +124,7 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "timeSpawnMax",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "2051ada4-ba43-4f42-b980-7d801e7284ef",
@@ -150,9 +150,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "40",
             "varName": "francesesMin",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "115ea133-9647-4dbd-bf0a-56814b0cb791",
@@ -164,9 +164,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6",
+            "value": "75",
             "varName": "francesesMax",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "a6508655-62e1-442f-bf2d-e528cd00fa8a",
