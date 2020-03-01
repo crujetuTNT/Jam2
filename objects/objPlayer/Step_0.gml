@@ -170,6 +170,6 @@ if (sprite_index != newSprite)
 // Score destroy tu instance the bosss
 if (score >= 20 && bossCreate == false)
 {
-	instance_create_depth(x, y+40, depth + 1, objBoss);
+	instance_create_depth(x, y+80, depth + 1, objBoss);
 	bossCreate = true;
 }
