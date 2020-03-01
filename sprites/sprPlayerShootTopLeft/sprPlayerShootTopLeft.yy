@@ -104,50 +104,6 @@
             ]
         },
         {
-            "id": "2ca8bc02-e626-457a-9f54-ca700c171587",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5dbc4304-b138-4628-982d-3e660c066fe3",
-            "compositeImage": {
-                "id": "19519e45-c9e2-478e-bb90-110ebe99a0b8",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "2ca8bc02-e626-457a-9f54-ca700c171587",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "6db82217-59b1-4b9c-aab6-a0a48a98c9d2",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "2ca8bc02-e626-457a-9f54-ca700c171587",
-                    "LayerId": "6006701f-c8e2-4953-bcf5-87259cbf2c8a"
-                }
-            ]
-        },
-        {
-            "id": "53c0d358-49c1-4668-a1aa-83471882b7b2",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5dbc4304-b138-4628-982d-3e660c066fe3",
-            "compositeImage": {
-                "id": "c1ba6fc8-f05f-4d73-b74c-50eb540aa743",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "53c0d358-49c1-4668-a1aa-83471882b7b2",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "0867bce0-c3ee-44a6-8f42-8b061e7b89f9",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "53c0d358-49c1-4668-a1aa-83471882b7b2",
-                    "LayerId": "6006701f-c8e2-4953-bcf5-87259cbf2c8a"
-                }
-            ]
-        },
-        {
             "id": "ac6c8d06-c9d1-4adb-8347-e15dc425419e",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
@@ -187,6 +143,50 @@
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "7940c619-a12b-4fce-bed2-6db2f5714161",
+                    "LayerId": "6006701f-c8e2-4953-bcf5-87259cbf2c8a"
+                }
+            ]
+        },
+        {
+            "id": "53c0d358-49c1-4668-a1aa-83471882b7b2",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "5dbc4304-b138-4628-982d-3e660c066fe3",
+            "compositeImage": {
+                "id": "c1ba6fc8-f05f-4d73-b74c-50eb540aa743",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "53c0d358-49c1-4668-a1aa-83471882b7b2",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "0867bce0-c3ee-44a6-8f42-8b061e7b89f9",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "53c0d358-49c1-4668-a1aa-83471882b7b2",
+                    "LayerId": "6006701f-c8e2-4953-bcf5-87259cbf2c8a"
+                }
+            ]
+        },
+        {
+            "id": "2ca8bc02-e626-457a-9f54-ca700c171587",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "5dbc4304-b138-4628-982d-3e660c066fe3",
+            "compositeImage": {
+                "id": "19519e45-c9e2-478e-bb90-110ebe99a0b8",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "2ca8bc02-e626-457a-9f54-ca700c171587",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "6db82217-59b1-4b9c-aab6-a0a48a98c9d2",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "2ca8bc02-e626-457a-9f54-ca700c171587",
                     "LayerId": "6006701f-c8e2-4953-bcf5-87259cbf2c8a"
                 }
             ]
