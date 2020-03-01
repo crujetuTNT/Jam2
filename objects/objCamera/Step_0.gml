@@ -1,4 +1,5 @@
 if(instance_exists(objPlayer)){
+	follow = objPlayer;
 	var cameraX = (x + mouse_x);
 	var cameraY = (y + mouse_y);
 
