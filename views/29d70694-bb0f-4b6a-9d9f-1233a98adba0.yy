@@ -22,7 +22,8 @@
         "08ea5a3c-f28a-45d7-b423-e46450eb74b4",
         "87b70824-facd-4910-9eaf-db7206ba8860",
         "41dd8373-42f1-4e7e-a6e6-92d2e3b3b041",
-        "4d78ddd2-b22d-44ba-9949-7d9e5205ca38"
+        "4d78ddd2-b22d-44ba-9949-7d9e5205ca38",
+        "d7ceb9dc-2a8a-41b6-876c-ed08f34a3b4c"
     ],
     "filterType": "GMSprite",
     "folderName": "sprMenu",
