@@ -1,8 +1,8 @@
 {
-    "id": "602963cb-043f-468b-8b5c-14fd69432a31",
+    "id": "06960df5-8f5a-47c5-b566-8c86d6854479",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objButton1",
+    "name": "objBush11",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b9e5f8ae-d6d5-41e7-b632-ae60a45beb71",
+    "spriteId": "00d7b12f-ce20-4f19-b750-d8af050e5c59",
     "visible": true
 }
