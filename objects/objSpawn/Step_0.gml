@@ -1,3 +1,5 @@
+if(instance_exists(objPlayer))
+{
 if (score >= 20 && objPlayer.bossCreate == false)
 {
 	generatedBoolean = false;
@@ -44,4 +46,5 @@ if (generatedBoolean) // es hora de crear?
 		spawnTime = false;
 		alarm[0] = timeSpawnMax;
 	}
+}
 }
