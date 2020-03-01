@@ -1,3 +1,12 @@
+// Life
+if (life <= 0)
+{
+	instance_create_depth(x, y, 0, objPhantom);
+	instance_destroy();
+	//audio_play_sound(sndDeath, 1, false);
+}
+else
+{
 vspeed = 0;
 hspeed = 0;
 
@@ -92,14 +101,6 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 	newSprite = sprPlayerIdleUpRight;
 }
 
-// Life
-if (life <= 0)
-{
-	instance_create_depth(x, y, 0, objPhantom);
-	instance_destroy();
-	//audio_play_sound(sndDeath, 1, false);
-}
-
 // Recover life
 if (reloadLife)
 {
@@ -174,3 +175,4 @@ if (score >= 20 && bossCreate == false)
 }
 
 image_blend = make_color_rgb(255, 255, 255);
+}
