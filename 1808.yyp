@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "08ea5a3c-f28a-45d7-b423-e46450eb74b4",
+            "Value": {
+                "id": "3bbfe8ca-59a9-49c2-93dd-aa522186754e",
+                "resourcePath": "sprites\\sprMalala\\sprMalala.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a342e6d-a983-439b-89fb-93803d47f3c6",
             "Value": {
                 "id": "57d6dd02-7d00-423d-9d5a-20ad7802284e",
@@ -140,6 +148,14 @@
                 "id": "0b569f2f-48b3-4daa-87af-d29df6a3d2b9",
                 "resourcePath": "sprites\\sprPlayerIdleDownRight\\sprPlayerIdleDownRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "11fb5ad3-6061-4c71-a5cf-63cd9c70c7e6",
+            "Value": {
+                "id": "f0a49073-8c36-442e-bf2f-ab54b9162b24",
+                "resourcePath": "objects\\objAgustinaNombre\\objAgustinaNombre.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -271,10 +287,26 @@
             }
         },
         {
+            "Key": "2eb6e822-1a62-412e-b401-780cd1cfb19f",
+            "Value": {
+                "id": "9f923816-06bf-4cff-b1dd-d31709c77e9f",
+                "resourcePath": "sprites\\sprButton22\\sprButton22.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30ff41d3-e006-471d-9796-27072f36dacb",
             "Value": {
                 "id": "aa847949-4c6a-4300-937a-79018852c765",
                 "resourcePath": "sprites\\sprPlayerShootLeft\\sprPlayerShootLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3196162a-a41a-4ced-9a2e-9c5fea03d8bc",
+            "Value": {
+                "id": "9be2f0bb-a804-40b6-b6e7-37409712d2db",
+                "resourcePath": "sprites\\sprButton12\\sprButton12.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -291,6 +323,14 @@
             "Value": {
                 "id": "ec1c8cd1-9d89-4c26-9f2c-c65523580eb2",
                 "resourcePath": "objects\\objFecha\\objFecha.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "371e0653-2a5c-4989-9a02-9dc322d466b5",
+            "Value": {
+                "id": "88c85672-a40c-47aa-95ee-5e4da4fcca75",
+                "resourcePath": "objects\\objMarieNombre\\objMarieNombre.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -319,11 +359,35 @@
             }
         },
         {
+            "Key": "41dd8373-42f1-4e7e-a6e6-92d2e3b3b041",
+            "Value": {
+                "id": "e3ab7540-5341-45b3-9390-020d107ebd7f",
+                "resourcePath": "sprites\\sprMalalaBueno\\sprMalalaBueno.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43432f9c-7b3f-4b14-9e12-bbd3a6aff771",
             "Value": {
                 "id": "350fb191-1a39-44c5-be3d-b052ac6836e7",
                 "resourcePath": "views\\43432f9c-7b3f-4b14-9e12-bbd3a6aff771.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a793faa-ee8c-4275-bb70-c9afb2a57652",
+            "Value": {
+                "id": "68efcaae-c91f-4263-a1aa-e0ff98729e74",
+                "resourcePath": "objects\\objMalala\\objMalala.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d78ddd2-b22d-44ba-9949-7d9e5205ca38",
+            "Value": {
+                "id": "596eb4e7-62e3-4b21-bcd6-5a4009f2dba3",
+                "resourcePath": "sprites\\sprMarieBueno\\sprMarieBueno.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,6 +519,14 @@
             }
         },
         {
+            "Key": "638f9f55-769e-41be-93dd-d4e7496455c6",
+            "Value": {
+                "id": "8da0048b-28cb-4c9d-98df-a874c0a2ced5",
+                "resourcePath": "sprites\\sprMarie\\sprMarie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a3a0a80-fb15-4c6a-8603-6980199231ae",
             "Value": {
                 "id": "cf8bf593-e9db-4129-b5dd-7590b7311303",
@@ -567,6 +639,14 @@
             }
         },
         {
+            "Key": "87b70824-facd-4910-9eaf-db7206ba8860",
+            "Value": {
+                "id": "eadc121b-0ba4-4f94-b352-8595eea351b5",
+                "resourcePath": "sprites\\sprRestart\\sprRestart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87daaf12-b855-48cf-a67d-c1317fc806d6",
             "Value": {
                 "id": "6007d274-5295-416f-aa53-6298092999b1",
@@ -603,6 +683,14 @@
             "Value": {
                 "id": "635b7b6f-e7d4-4b0c-981b-3d60a79274fa",
                 "resourcePath": "sprites\\sprPlayerIdleLeft\\sprPlayerIdleLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c6d2df0-2c5b-4cee-89f3-73dbb97d1bc7",
+            "Value": {
+                "id": "42ac4ef6-7fc2-44e3-af41-49b747e15a7e",
+                "resourcePath": "sprites\\sprAgustina\\sprAgustina.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -804,6 +892,22 @@
                 "id": "af9bb516-49b7-4f5e-8f10-4cc614f033c8",
                 "resourcePath": "views\\bf43a2b4-0e41-4631-88c7-532e4056891d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c211e98e-ba2c-4aeb-9236-15830c7b6a1a",
+            "Value": {
+                "id": "e1b6d878-0ac7-436b-be4e-78c65d63eac5",
+                "resourcePath": "objects\\objMalalaNombre\\objMalalaNombre.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c2987714-c159-4f26-adbc-9db7fb546d91",
+            "Value": {
+                "id": "053d3ef2-5f55-4918-bfc6-a3f6b568872c",
+                "resourcePath": "objects\\objMarie\\objMarie.yy",
+                "resourceType": "GMObject"
             }
         },
         {
