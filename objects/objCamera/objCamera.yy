@@ -33,6 +33,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "f648383f-7621-4f16-bab9-3f8e0f32c98e"
+        },
+        {
+            "id": "153c25d4-889c-4674-ada9-4f179c42ac8e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "f648383f-7621-4f16-bab9-3f8e0f32c98e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -79,6 +89,20 @@
             "value": "True",
             "varName": "sumTimeScore",
             "varType": 3
+        },
+        {
+            "id": "9d34b105-b188-4d77-9fd7-c26b98d4c673",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "score",
+            "varType": 0
         }
     ],
     "solid": false,
