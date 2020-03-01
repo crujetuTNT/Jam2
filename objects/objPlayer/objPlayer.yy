@@ -227,34 +227,6 @@
             "value": "0",
             "varName": "bossCreate",
             "varType": 3
-        },
-        {
-            "id": "8ac410a3-722c-4fc7-91fd-556e477c7dfe",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "True",
-            "varName": "shake",
-            "varType": 3
-        },
-        {
-            "id": "9652bf8c-0c63-4d9f-a1eb-662cf6f2a3d9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "100",
-            "varName": "shakeTime",
-            "varType": 1
         }
     ],
     "solid": false,
