@@ -107,7 +107,7 @@ else if(sprite_index == sprSoldierChargeLeft)
 }
 
 // Score destroy tu instance the bosss
-if (score >= 250 && score <= 260)
+if (score >= 20 && score <= 25)
 {
 	instance_destroy();	
 }

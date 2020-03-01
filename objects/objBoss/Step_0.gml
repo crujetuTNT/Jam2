@@ -2,6 +2,6 @@ alarm[0] = random_range(timeSpawnMin, timeSpawnMax);
 
 if (spawnEnemigos)
 {
-	inst = instance_create(x-20, y, objSoldier);
+	var enemyCreateBoss = instance_create_depth(x, y-20, depth + 1, objSoldier);
 	spawnEnemigos = false;
 }
