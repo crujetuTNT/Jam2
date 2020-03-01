@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "8fa323d2-735f-47d6-bd88-55e9956bc9da",
+            "Value": {
+                "id": "a60dc34b-8648-4e9c-89a5-16d70c32026c",
+                "resourcePath": "sprites\\sprBaguette\\sprBaguette.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9379eacb-0d00-4a11-b63a-1df038d516f4",
             "Value": {
                 "id": "ceb0db30-1422-4637-a84e-b5e89f678429",
