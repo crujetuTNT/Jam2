@@ -101,6 +101,16 @@ else if(point_direction(x, y, mouse_x, mouse_y) > 22 && point_direction(x, y, mo
 	newSprite = sprPlayerIdleUpRight;
 }
 
+// Score
+if (boolScore)
+{
+	score++;
+	
+	// reset the life reload timer
+	boolScore = false;
+	alarm[3] = numPeriod;
+}
+
 // Recover life
 if (reloadLife)
 {
@@ -159,6 +169,26 @@ if (spriteShoot)
 	{
 		newSprite = sprPlayerShootDownRight;
 	}
+}
+// Camera
+var cameraX = (x + mouse_x);
+var cameraY = (y + mouse_y);
+
+if(mouse_x<=x && mouse_y<=y)
+{
+	camera_set_view_pos(view_camera[0], (cameraX div 2) - 435, (cameraY div 2) - 375);
+}
+else if (mouse_x<=x && mouse_y>=y)
+{
+	camera_set_view_pos(view_camera[0], (cameraX div 2) - 435, -(cameraY div -2) - 375);
+}
+else if (mouse_x>=x && mouse_y<=y)
+{
+	camera_set_view_pos(view_camera[0], -(cameraX div -2) - 435, (cameraY div 2) - 375);
+}
+else if (mouse_x>=x && mouse_y>=y)
+{
+	camera_set_view_pos(view_camera[0], -(cameraX div -2) - 435, -(cameraY div -2) - 375);
 }
 
 // Set sprite

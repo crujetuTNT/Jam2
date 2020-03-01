@@ -83,6 +83,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
+        },
+        {
+            "id": "78dc37b4-d0ec-45fc-8598-b30bbf35cc0b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "3a3f3f5d-a0d0-42d7-89a9-d673d8b88795"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -226,6 +236,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "bossCreate",
+            "varType": 3
+        },
+        {
+            "id": "454a7ca3-74d1-4f7e-b10d-64a457527fe3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "numPeriod",
+            "varType": 0
+        },
+        {
+            "id": "c1c60b38-1765-4bce-be9e-35c1f721f463",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "boolScore",
             "varType": 3
         }
     ],
